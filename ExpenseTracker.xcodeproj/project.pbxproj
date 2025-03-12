@@ -7,21 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4A82B62B58713C002A6762 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A82B52B58713C002A6762 /* ChartModel.swift */; };
+		5B4A82BE2B591951002A6762 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4A82BD2B591951002A6762 /* WidgetKit.framework */; };
+		5B4A82C02B591951002A6762 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4A82BF2B591951002A6762 /* SwiftUI.framework */; };
+		5B4A82C32B591951002A6762 /* StateCardViewBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A82C22B591951002A6762 /* StateCardViewBundle.swift */; };
+		5B4A82C52B591951002A6762 /* StateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A82C42B591951002A6762 /* StateCardView.swift */; };
+		5B4A82C72B591955002A6762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4A82C62B591955002A6762 /* Assets.xcassets */; };
+		5B4A82CB2B591955002A6762 /* StateCardViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5B4A82BB2B591951002A6762 /* StateCardViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B4A82D02B591AE0002A6762 /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1836E2B57D5F500599156 /* FilterTransactionView.swift */; };
+		5B4A82D12B591B26002A6762 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F030A2B43E50C008133D5 /* Date+Extensions.swift */; };
+		5B4A82D22B591B58002A6762 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F030D2B43E982008133D5 /* CardView.swift */; };
+		5B4A82D32B591B92002A6762 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7832B3EDB8F00762A15 /* Category.swift */; };
+		5B4A82D52B591CA3002A6762 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7852B3EDBD200762A15 /* Transaction.swift */; };
+		5B4A82D62B591D06002A6762 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7872B3EDCEA00762A15 /* TintColor.swift */; };
+		5B4A82D72B591D22002A6762 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C77F2B3ED5B500762A15 /* Constants.swift */; };
+		5B4F030B2B43E50C008133D5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F030A2B43E50C008133D5 /* Date+Extensions.swift */; };
+		5B4F030E2B43E982008133D5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F030D2B43E982008133D5 /* CardView.swift */; };
+		5B4F03102B44AF22008133D5 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F030F2B44AF22008133D5 /* TransactionCardView.swift */; };
+		5B4F03122B45067F008133D5 /* CustomSwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F03112B45067F008133D5 /* CustomSwipeAction.swift */; };
 		5BA3C76D2B3ED2E700762A15 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C76C2B3ED2E700762A15 /* ExpenseTrackerApp.swift */; };
 		5BA3C76F2B3ED2E700762A15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C76E2B3ED2E700762A15 /* ContentView.swift */; };
 		5BA3C7712B3ED2E700762A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3C7702B3ED2E700762A15 /* Assets.xcassets */; };
 		5BA3C7742B3ED2E700762A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3C7732B3ED2E700762A15 /* Preview Assets.xcassets */; };
+		5BA3C77D2B3ED43000762A15 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C77C2B3ED43000762A15 /* IntroScreen.swift */; };
+		5BA3C7802B3ED5B500762A15 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C77F2B3ED5B500762A15 /* Constants.swift */; };
+		5BA3C7822B3ED87D00762A15 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7812B3ED87D00762A15 /* Tab.swift */; };
+		5BA3C7842B3EDB8F00762A15 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7832B3EDB8F00762A15 /* Category.swift */; };
+		5BA3C7862B3EDBD200762A15 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7852B3EDBD200762A15 /* Transaction.swift */; };
+		5BA3C7882B3EDCEA00762A15 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7872B3EDCEA00762A15 /* TintColor.swift */; };
+		5BA3C78B2B3EE53700762A15 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C78A2B3EE53700762A15 /* Recents.swift */; };
+		5BA3C78D2B3EE54700762A15 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C78C2B3EE54700762A15 /* Search.swift */; };
+		5BA3C78F2B3EE55000762A15 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C78E2B3EE55000762A15 /* Charts.swift */; };
+		5BA3C7912B3EE55900762A15 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7902B3EE55900762A15 /* Settings.swift */; };
+		5BA3C7932B3EE72F00762A15 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3C7922B3EE72F00762A15 /* View+Extensions.swift */; };
+		5BC183692B52E79300599156 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC183682B52E79300599156 /* DateFilterView.swift */; };
+		5BC1836B2B55D33E00599156 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1836A2B55D33E00599156 /* LockView.swift */; };
+		5BC1836D2B55EBF700599156 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1836C2B55EBF700599156 /* TransactionView.swift */; };
+		5BC1836F2B57D5F500599156 /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1836E2B57D5F500599156 /* FilterTransactionView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B4A82C92B591955002A6762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA3C7612B3ED2E600762A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4A82BA2B591951002A6762;
+			remoteInfo = StateCardViewExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B4A82CF2B591955002A6762 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B4A82CB2B591955002A6762 /* StateCardViewExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5B4A82B52B58713C002A6762 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		5B4A82BB2B591951002A6762 /* StateCardViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StateCardViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4A82BD2B591951002A6762 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5B4A82BF2B591951002A6762 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5B4A82C22B591951002A6762 /* StateCardViewBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCardViewBundle.swift; sourceTree = "<group>"; };
+		5B4A82C42B591951002A6762 /* StateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCardView.swift; sourceTree = "<group>"; };
+		5B4A82C62B591955002A6762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B4A82C82B591955002A6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4A82D82B591DA9002A6762 /* ExpenseTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpenseTracker.entitlements; sourceTree = "<group>"; };
+		5B4A82D92B591DE9002A6762 /* StateCardViewExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StateCardViewExtension.entitlements; sourceTree = "<group>"; };
+		5B4F030A2B43E50C008133D5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		5B4F030D2B43E982008133D5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5B4F030F2B44AF22008133D5 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		5B4F03112B45067F008133D5 /* CustomSwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeAction.swift; sourceTree = "<group>"; };
 		5BA3C7692B3ED2E700762A15 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3C76C2B3ED2E700762A15 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		5BA3C76E2B3ED2E700762A15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BA3C7702B3ED2E700762A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA3C7732B3ED2E700762A15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BA3C77C2B3ED43000762A15 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		5BA3C77F2B3ED5B500762A15 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5BA3C7812B3ED87D00762A15 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		5BA3C7832B3EDB8F00762A15 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5BA3C7852B3EDBD200762A15 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5BA3C7872B3EDCEA00762A15 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		5BA3C78A2B3EE53700762A15 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		5BA3C78C2B3EE54700762A15 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5BA3C78E2B3EE55000762A15 /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		5BA3C7902B3EE55900762A15 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5BA3C7922B3EE72F00762A15 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		5BC183682B52E79300599156 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		5BC1836A2B55D33E00599156 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		5BC1836C2B55EBF700599156 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		5BC1836E2B57D5F500599156 /* FilterTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B4A82B82B591951002A6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4A82C02B591951002A6762 /* SwiftUI.framework in Frameworks */,
+				5B4A82BE2B591951002A6762 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BA3C7662B3ED2E600762A15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +127,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4A82BC2B591951002A6762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B4A82BD2B591951002A6762 /* WidgetKit.framework */,
+				5B4A82BF2B591951002A6762 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B4A82C12B591951002A6762 /* StateCardView */ = {
+			isa = PBXGroup;
+			children = (
+				5B4A82C22B591951002A6762 /* StateCardViewBundle.swift */,
+				5B4A82C42B591951002A6762 /* StateCardView.swift */,
+				5B4A82C62B591955002A6762 /* Assets.xcassets */,
+				5B4A82C82B591955002A6762 /* Info.plist */,
+			);
+			path = StateCardView;
+			sourceTree = "<group>";
+		};
+		5B4F030C2B43E975008133D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F030D2B43E982008133D5 /* CardView.swift */,
+				5B4F030F2B44AF22008133D5 /* TransactionCardView.swift */,
+				5B4F03112B45067F008133D5 /* CustomSwipeAction.swift */,
+				5BC183682B52E79300599156 /* DateFilterView.swift */,
+				5BC1836A2B55D33E00599156 /* LockView.swift */,
+				5BC1836E2B57D5F500599156 /* FilterTransactionView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		5BA3C7602B3ED2E600762A15 = {
 			isa = PBXGroup;
 			children = (
+				5B4A82D92B591DE9002A6762 /* StateCardViewExtension.entitlements */,
 				5BA3C76B2B3ED2E700762A15 /* ExpenseTracker */,
+				5B4A82C12B591951002A6762 /* StateCardView */,
+				5B4A82BC2B591951002A6762 /* Frameworks */,
 				5BA3C76A2B3ED2E700762A15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA3C7692B3ED2E700762A15 /* ExpenseTracker.app */,
+				5B4A82BB2B591951002A6762 /* StateCardViewExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +183,10 @@
 		5BA3C76B2B3ED2E700762A15 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				5B4A82D82B591DA9002A6762 /* ExpenseTracker.entitlements */,
+				5BA3C77E2B3ED5A500762A15 /* Helpers */,
+				5BA3C77B2B3ED42100762A15 /* Model */,
+				5BA3C77A2B3ED41600762A15 /* View */,
 				5BA3C76C2B3ED2E700762A15 /* ExpenseTrackerApp.swift */,
 				5BA3C76E2B3ED2E700762A15 /* ContentView.swift */,
 				5BA3C7702B3ED2E700762A15 /* Assets.xcassets */,
@@ -67,9 +203,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5BA3C77A2B3ED41600762A15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F030C2B43E975008133D5 /* Helpers */,
+				5BA3C7892B3EE51500762A15 /* TabView */,
+				5BA3C77C2B3ED43000762A15 /* IntroScreen.swift */,
+				5BC1836C2B55EBF700599156 /* TransactionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BA3C77B2B3ED42100762A15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3C7812B3ED87D00762A15 /* Tab.swift */,
+				5BA3C7832B3EDB8F00762A15 /* Category.swift */,
+				5BA3C7852B3EDBD200762A15 /* Transaction.swift */,
+				5BA3C7872B3EDCEA00762A15 /* TintColor.swift */,
+				5B4A82B52B58713C002A6762 /* ChartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BA3C77E2B3ED5A500762A15 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3C77F2B3ED5B500762A15 /* Constants.swift */,
+				5BA3C7922B3EE72F00762A15 /* View+Extensions.swift */,
+				5B4F030A2B43E50C008133D5 /* Date+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5BA3C7892B3EE51500762A15 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3C78A2B3EE53700762A15 /* Recents.swift */,
+				5BA3C78C2B3EE54700762A15 /* Search.swift */,
+				5BA3C78E2B3EE55000762A15 /* Charts.swift */,
+				5BA3C7902B3EE55900762A15 /* Settings.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5B4A82BA2B591951002A6762 /* StateCardViewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4A82CC2B591955002A6762 /* Build configuration list for PBXNativeTarget "StateCardViewExtension" */;
+			buildPhases = (
+				5B4A82B72B591951002A6762 /* Sources */,
+				5B4A82B82B591951002A6762 /* Frameworks */,
+				5B4A82B92B591951002A6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StateCardViewExtension;
+			productName = StateCardViewExtension;
+			productReference = 5B4A82BB2B591951002A6762 /* StateCardViewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5BA3C7682B3ED2E600762A15 /* ExpenseTracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA3C7772B3ED2E700762A15 /* Build configuration list for PBXNativeTarget "ExpenseTracker" */;
@@ -77,10 +274,12 @@
 				5BA3C7652B3ED2E600762A15 /* Sources */,
 				5BA3C7662B3ED2E600762A15 /* Frameworks */,
 				5BA3C7672B3ED2E600762A15 /* Resources */,
+				5B4A82CF2B591955002A6762 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B4A82CA2B591955002A6762 /* PBXTargetDependency */,
 			);
 			name = ExpenseTracker;
 			productName = ExpenseTracker;
@@ -94,9 +293,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					5B4A82BA2B591951002A6762 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					5BA3C7682B3ED2E600762A15 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -116,11 +318,20 @@
 			projectRoot = "";
 			targets = (
 				5BA3C7682B3ED2E600762A15 /* ExpenseTracker */,
+				5B4A82BA2B591951002A6762 /* StateCardViewExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5B4A82B92B591951002A6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4A82C72B591955002A6762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BA3C7672B3ED2E600762A15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +344,118 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B4A82B72B591951002A6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4A82D62B591D06002A6762 /* TintColor.swift in Sources */,
+				5B4A82D52B591CA3002A6762 /* Transaction.swift in Sources */,
+				5B4A82C52B591951002A6762 /* StateCardView.swift in Sources */,
+				5B4A82D12B591B26002A6762 /* Date+Extensions.swift in Sources */,
+				5B4A82C32B591951002A6762 /* StateCardViewBundle.swift in Sources */,
+				5B4A82D02B591AE0002A6762 /* FilterTransactionView.swift in Sources */,
+				5B4A82D22B591B58002A6762 /* CardView.swift in Sources */,
+				5B4A82D32B591B92002A6762 /* Category.swift in Sources */,
+				5B4A82D72B591D22002A6762 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5BA3C7652B3ED2E600762A15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA3C7882B3EDCEA00762A15 /* TintColor.swift in Sources */,
+				5BA3C78F2B3EE55000762A15 /* Charts.swift in Sources */,
+				5BC1836F2B57D5F500599156 /* FilterTransactionView.swift in Sources */,
+				5BC183692B52E79300599156 /* DateFilterView.swift in Sources */,
+				5BA3C78B2B3EE53700762A15 /* Recents.swift in Sources */,
 				5BA3C76F2B3ED2E700762A15 /* ContentView.swift in Sources */,
+				5B4F030E2B43E982008133D5 /* CardView.swift in Sources */,
+				5BA3C77D2B3ED43000762A15 /* IntroScreen.swift in Sources */,
+				5B4A82B62B58713C002A6762 /* ChartModel.swift in Sources */,
+				5BA3C7862B3EDBD200762A15 /* Transaction.swift in Sources */,
+				5BC1836D2B55EBF700599156 /* TransactionView.swift in Sources */,
+				5BA3C7912B3EE55900762A15 /* Settings.swift in Sources */,
+				5BA3C7822B3ED87D00762A15 /* Tab.swift in Sources */,
 				5BA3C76D2B3ED2E700762A15 /* ExpenseTrackerApp.swift in Sources */,
+				5B4F030B2B43E50C008133D5 /* Date+Extensions.swift in Sources */,
+				5BA3C7932B3EE72F00762A15 /* View+Extensions.swift in Sources */,
+				5BA3C78D2B3EE54700762A15 /* Search.swift in Sources */,
+				5BC1836B2B55D33E00599156 /* LockView.swift in Sources */,
+				5BA3C7802B3ED5B500762A15 /* Constants.swift in Sources */,
+				5B4F03122B45067F008133D5 /* CustomSwipeAction.swift in Sources */,
+				5BA3C7842B3EDB8F00762A15 /* Category.swift in Sources */,
+				5B4F03102B44AF22008133D5 /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5B4A82CA2B591955002A6762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4A82BA2B591951002A6762 /* StateCardViewExtension */;
+			targetProxy = 5B4A82C92B591955002A6762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5B4A82CD2B591955002A6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StateCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC76GUB86N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StateCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StateCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erenaskin.ExpenseTracker.StateCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4A82CE2B591955002A6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StateCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC76GUB86N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StateCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StateCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erenaskin.ExpenseTracker.StateCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5BA3C7752B3ED2E700762A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,14 +578,17 @@
 		5BA3C7782B3ED2E700762A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExpenseTracker/ExpenseTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpenseTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = JC76GUB86N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = DESCRIPTION;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,14 +610,17 @@
 		5BA3C7792B3ED2E700762A15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExpenseTracker/ExpenseTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExpenseTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = JC76GUB86N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = DESCRIPTION;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +642,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B4A82CC2B591955002A6762 /* Build configuration list for PBXNativeTarget "StateCardViewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4A82CD2B591955002A6762 /* Debug */,
+				5B4A82CE2B591955002A6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5BA3C7642B3ED2E600762A15 /* Build configuration list for PBXProject "ExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
