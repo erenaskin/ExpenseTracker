@@ -1,50 +1,39 @@
 # ExpenseTracker
 
-## 📌 Proje Açıklaması
-Expense Tracker, kişisel finans yönetimini kolaylaştırmak için geliştirilmiş bir harcama takip uygulamasıdır. Kullanıcılar gelir ve giderlerini kaydederek finansal durumlarını kontrol altında tutabilirler. 
+## 📌 Project Description
+Expense Tracker is an expense tracking application developed to facilitate personal finance management. Users can keep their financial situation under control by recording their income and expenses. 
 
-## 🚀 Özellikler
-- 📊 **Gelir ve Gider Takibi:** Harcamalarınızı ve gelirlerinizi kategorilere ayırarak kaydedin.
-- 📅 **Tarih Bazlı Filtreleme:** Belirli bir zaman dilimi için gelir ve giderleri görüntüleyin.
-- 📈 **Grafiksel Raporlar:** Finansal durumunuzu analiz etmek için grafiksel gösterimler.
-- 🏷️ **Kategori Yönetimi:** Harcamalarınızı farklı kategorilerde düzenleyin.
-- 💾 **Veri Saklama:** SwiftData ile güvenli veri yönetimi.
+## 🚀 Features
+- 📊 **Income and Expense Tracking:** Record your expenses and income by categorizing them.
+- 📅 **Date Based Filtering:** View income and expenses for a specific time period.
+- 📈 **Graphical Reports:** Graphical representations to analyze your financial situation.
+- 🏷️ **Category Management:** Organize your expenses in different categories.
+- 💾 **Data Storage:** Secure data management with SwiftData.
 
-## 🛠️ Kullanılan Teknolojiler
-- **Geliştirme Dili:** Swift
-- **Veri Yönetimi:** SwiftData
+## 🛠️ Technologies Used
+- Development Language:** Swift
+- Data Management:** SwiftData
 - **UI Framework:** SwiftUI
 
-## 📂 Proje Kurulumu
-Bu projeyi kendi sisteminizde çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+## 📂 Project Installation
+You can follow the steps below to run this project on your system:
 
-### 1️⃣ Depoyu Klonlayın
+### 1️⃣ Clone Repository
 ```sh
 git clone git@github.com:erenaskin/ExpenseTracker.git
 cd ExpenseTracker
 ```
 
-### 2️⃣ Xcode ile Açın
-Projeyi Xcode ile açmak için aşağıdaki komutu çalıştırabilirsiniz:
+#### 2️⃣ Open with Xcode
+You can run the following command to open the project with Xcode:
 ```sh
 xed .
 ```
-Veya doğrudan Xcode üzerinden `ExpenseTracker.xcodeproj` dosyasını açabilirsiniz.
+Or you can open `ExpenseTracker.xcodeproj` directly from Xcode.
 
-### 3️⃣ Uygulamayı Çalıştırın
-Xcode üzerinden **Run** butonuna basarak veya aşağıdaki komutu terminalde çalıştırarak uygulamayı başlatabilirsiniz:
-```sh
-xcodebuild -scheme ExpenseTracker -destination 'platform=iOS Simulator,name=iPhone 15'
-```
-
-## 💡 Geliştirme Planları
-- 📅 **Bütçe Yönetimi Modülü** eklenmesi
-- 📊 **Daha Gelişmiş Analitik Raporlar**
-- 📱 **iPad ve MacOS Desteği**
-
-## 🤝 Katkıda Bulunma
-Projeye katkıda bulunmak isterseniz **pull request** gönderebilir veya `issues` açarak geliştirme önerilerinde bulunabilirsiniz.
-
----
-👨‍💻 **Geliştirici:** [Eren Aşkın](https://github.com/erenaskin)
+### 3️⃣ Run the Application You can start the application by pressing the **Run** button on Xcode or by running the following command in the terminal:
+ ```sh xcodebuild -scheme ExpenseTracker -destination ‘platform=iOS Simulator,name=iPhone 15’ ```
+## 💡 Development Plans - 📅 **Adding a Budget Management Module** - 📊 **More Advanced Analytical Reports** - 📱 **iPad and MacOS Support** 
+## 🤝 Contributing If you want to contribute to the project, you can send a **pull request** or open `issues` to suggest improvements.  
+👨‍💻 **Developer:** [Eren Aşkın](https://github.com/erenaskin)
 
